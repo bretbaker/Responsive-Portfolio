@@ -85,7 +85,7 @@ p, a, label {
     padding-bottom: 20px;
     margin-bottom: 30px;
 }
-.about-me-img {
+#about-me-img {
     margin-right: 20px;
     margin-bottom: 20px;
     float: left;
@@ -167,10 +167,47 @@ textarea {
     }
 }
 @media only screen and (max-width: 640px) {
+    .navbar-parent {
+        height: 115px;
+    }
     .navbar-child {
-        width: 400px;
+        width: 100%;
+        height: 115px;
     }
     .main-content {
         width: 400px;
+    }
+    .name {
+        display: block;
+        position: relative;
+        margin: auto;
+    }
+    .navbar {
+        position: relative;
+        display: block;
+        text-align: center;
+        margin-top: 30px;
+    }
+    #about-me-img {
+        margin: 0 auto;
+        float: none;
+        display: block;
+        margin-bottom: 20px;
+        width: 100%;
+        height: auto;
+    }
+    .project {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        display: block;
+    }
+    .proj-img {
+        width: 100%;
+        height: auto;
+    }
+    .project-title {
+        top: 180px;
     }
 }
