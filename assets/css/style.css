@@ -101,10 +101,12 @@ p, a, label {
 }
 #copyright {
     color: #fff;
-    position: absolute;
+    /* position: absolute;
     bottom: 0;
-    left: 48.5%;
+    left: 48.5%; */
+    margin: 25px auto 0 auto;
     font-size: 0.8rem;
+    text-align: center;
 }
 .project {
     height: 200px;
@@ -146,24 +148,60 @@ textarea {
     line-height: 1.25rem;
 }
 #foot-space {
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 980px) and (min-width: 769px) {
+    .navbar-parent {
+        width: auto;
+    }
     .navbar-child {
-        width: 680px;
+        width: 90%;
     }
     .main-content {
-        width: 680px;
+        width: 61%;
+        margin-left: 5%;
+        padding: 25px;
+    }
+    .proj-img {
+        height: 180px;
+        width: auto;
+    }
+    .project {
+        height: 175px;
+        width: auto;
+        margin-right: 23px;
+        margin-bottom: 50px;
+    }
+    .project-title {
+        top: 55%;
     }
  }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (min-width: 641px) {
+    .navbar-parent {
+        width: auto;
+    }
     .navbar-child {
-        width: 560px;
+        width: 90%;
     }
     .main-content {
-        width: 560px;
+        width: 90%;
+        padding: 25px;
+    }
+    .proj-img {
+        height: 180px;
+        width: auto;
+    }
+    .project {
+        height: 175px;
+        width: auto;
+        margin-right: 23px;
+        margin-bottom: 50px;
+    }
+    .project-title {
+        top: 55%;
     }
 }
 @media only screen and (max-width: 640px) {
@@ -171,11 +209,11 @@ textarea {
         height: 115px;
     }
     .navbar-child {
-        width: 100%;
+        width: auto;
         height: 115px;
     }
     .main-content {
-        width: 400px;
+        width: 80%;
     }
     .name {
         display: block;
@@ -208,6 +246,6 @@ textarea {
         height: auto;
     }
     .project-title {
-        top: 180px;
+        top: 55%;
     }
 }
