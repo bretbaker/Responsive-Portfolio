@@ -1,1 +1,2 @@
 # Responsive-Portfolio
+Coding Bootcamp HW Assignment #2, part 2.  The same sample portfolio from the Basic-Portfolio repository, however, now it is responsive as a few tweaks have been made/added to the HTML and CSS, most important of which are media queries.
